@@ -30,4 +30,17 @@ ism_pmi.plot()
 
 ###End####
 
+###ISM Non-Manufacturing Index (NMI)####
 
+###4####
+##call ISM_NMI from quandl
+########
+ism_nmi = quandl.get("ISM/NONMAN_NMI", authtoken="qHmbxxxxxxxxD8fx")
+ism_nmi #quick view
+
+###5####
+###simple line chart
+########
+ism_nmi.plot()
+
+###End####
