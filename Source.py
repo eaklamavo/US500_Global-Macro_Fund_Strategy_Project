@@ -20,7 +20,7 @@ import quandl
 ###2####
 ##call ISM_PMI from quandl
 ########
-ism_pmi = quandl.get("ISM/MAN_PMI", authtoken="qHmb8WS585_F9y8sD8fx")
+ism_pmi = quandl.get("ISM/MAN_PMI", authtoken="qHmbxxxxxxxxD8fx")
 ism_pmi #quick view
 
 ###3####
