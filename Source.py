@@ -44,3 +44,13 @@ ism_nmi #quick view
 ism_nmi.plot()
 
 ###End####
+
+###6####
+###show latest ISM releases
+########
+last_ism_pmi = ism_pmi.iloc[[-1]]
+last_ism_nmi = ism_nmi.iloc[[-1]]
+print(last_ism_pmi) 
+print(last_ism_nmi)
+
+###End####
